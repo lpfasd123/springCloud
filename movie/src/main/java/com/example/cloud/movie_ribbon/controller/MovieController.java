@@ -14,6 +14,7 @@ import org.springframework.web.client.RestTemplate;
 public class MovieController {
     @Autowired
     private RestTemplate restTemplate;
+
     @GetMapping("/movie/{id}")
     public User findById(@PathVariable Long id){
         return restTemplate.getForObject("http://localhost:7900/simple/" + id, User.class);

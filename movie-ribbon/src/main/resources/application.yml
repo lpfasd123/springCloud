@@ -1,5 +1,5 @@
 server:
-  port: 7901
+  port: 7902
 eureka:
   client:
     healthcheck:
@@ -11,4 +11,4 @@ eureka:
     prefer-ip-address: false
 spring:
   application:
-    name: movie
+    name: movie-ribbon
