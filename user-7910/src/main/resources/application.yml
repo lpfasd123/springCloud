@@ -1,8 +1,8 @@
 server:
-  port: 7900
+  port: 7910
 spring:
   application:
-    name: user
+    name: user2
   jpa:
     show-sql: true
     generate-ddl: false

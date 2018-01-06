@@ -1,0 +1,29 @@
+server:
+  port: 7904
+spring:
+  application:
+    name: user
+  jpa:
+    show-sql: true
+    generate-ddl: false
+    hibernate:
+      ddl-auto: none
+  datasource:
+    platform: h2
+    schema: classpath:schema.sql
+    data: classpath:data.sql
+logging:
+  level:
+    root: INFO
+    org.hibernate: INFO
+    org.hibernate.type.descriptor.BasicBinder: TRACE
+    org.hibernate.type.descriptor.BasicExtractor: TRACE
+eureka:
+  client:
+    healthcheck:
+        enabled: true
+    service-url:
+      defaultZone: http://user:password123@localhost:8761/eureka
+  #false注册名或者true注册ip
+  instance:
+    prefer-ip-address: false

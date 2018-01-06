@@ -12,7 +12,12 @@
 		<module>eurekaserver</module>
         <module>movie</module>
         <module>movie-ribbon</module>
+		<module>movie-ribbon-foo</module>
+		<module>movie-ribbon-foo-2</module>
         <module>user</module>
+		<module>user-7904</module>
+		<module>user-7910</module>
+		<module>user-7911</module>
     </modules>
 	<name>cloudDemo</name>
 	<description>Demo project for Spring Boot</description>

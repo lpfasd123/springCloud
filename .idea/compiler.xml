@@ -25,7 +25,12 @@
         <module name="eurekaserver" />
         <module name="movie" />
         <module name="movie-ribbon" />
+        <module name="movie-ribbon-foo" />
+        <module name="movie-ribbon-foo-2" />
         <module name="user" />
+        <module name="user-7904" />
+        <module name="user-7910" />
+        <module name="user-7911" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -33,7 +38,12 @@
       <module name="eurekaserver" target="1.8" />
       <module name="movie" target="1.8" />
       <module name="movie-ribbon" target="1.8" />
+      <module name="movie-ribbon-foo" target="1.8" />
+      <module name="movie-ribbon-foo-2" target="1.8" />
       <module name="user" target="1.8" />
+      <module name="user-7904" target="1.8" />
+      <module name="user-7910" target="1.8" />
+      <module name="user-7911" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
